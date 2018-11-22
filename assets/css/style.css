@@ -1,0 +1,175 @@
+body{
+	margin: 0px;
+}
+.header__main {
+  margin: 30px auto;
+  max-width: 512px;
+}
+
+.header__title {
+  color: #4AB3F4;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: NotoSansSC-Medium.otf;
+}
+.header__description {
+  font-size: 0.9rem;
+  color: #555;
+}
+.card__profile-container {
+  opacity: 1;
+  transition: all .25s ease-in-out;
+  width: 120px;
+  margin-bottom: 10px;
+}
+.card__profile-container--twt {
+  opacity: 1;
+  transition: all .25s ease-in-out;
+  width: 70px;
+  margin-bottom: 10px;
+}
+
+.card__profile {
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  transition: all .25s ease-in;
+  width: 100%;
+  margin-left: 20px;
+}
+.card__author {
+  opacity: 1;
+  transition: all .25s;
+  width: 350px;
+}
+.card__author-name {
+  font-weight: 200;
+  margin-left: 20px;
+}
+.panel__rw{
+	margin-top: 110px;
+}
+.panel_cl{
+	margin-top: 110px;
+}
+.panel__btn{
+	background-color: #4AB3F4;
+	border:1px solid #1da1f2;
+	color: white;
+	border-radius: 100px;
+	padding: 4px 16px;
+
+}
+.twit{
+	border-radius: 8%;
+	border: 1px solid rgba(29,161,242,0.25);
+	margin-top: 20px;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	padding-bottom:  20px;
+	background: rgba(29,161,242,0.1);
+}
+.twit__header{
+	text-align: center;
+	padding-bottom:  5px;
+	border-bottom: 1px solid rgba(29,161,242,0.25);
+}
+.twit__textarea{
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right:  5%;
+
+}
+.twit__down{
+	text-align: right;
+	margin-right:  5%;
+	margin-top: 5%;
+}
+.twit__down--btn{
+	background-color: #4AB3F4;
+	border-radius: 100px;
+	color: white;
+	border: 1px solid #1da1f2;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 6px 16px;
+}
+.twit__coment{
+	padding: 0;
+	padding: 5%;
+	
+	border-radius: 5%;
+}
+.twit__trash{
+	padding: 0;
+}
+.twit__trash--icon{
+	padding: 20%;
+}
+/* trabajo hecho en clase*/
+
+
+.social {
+  border-bottom: 1px solid #eee;
+  border-top: 1px solid #eee;
+  font-size: .9rem;
+  margin: 40px 10% 20px;
+  padding: 10px 0;
+  text-align: center;
+  width: 80%;
+}
+
+.social__element {
+  display: inline-block;
+  margin: 0 2em;
+  text-align: center;
+}
+
+
+.social__number {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.social__text {
+  color: #888;
+  font-size: 1em;
+  font-weight: 300;
+}
+.card__like {
+  color: #ccc;
+  transition: all .35s ease-out;
+  font-size: 20px;
+}
+
+.social__coment {
+  color: #ccc;
+  font-size: 20px;
+}
+.social__retweet {
+  color: #ccc;
+  font-size: 20px;
+}
+
+
+.card__like--red {
+  color: tomato;
+}
+.card__comment{
+	display: inline-block;
+  	margin: 1em;
+  	text-align: center;
+}
+.card__enveloped{
+	display: inline-block;
+  	margin: 1em;
+  	text-align: center;
+}
+.twit__post{
+	border: 2px inset lightgray;
+	border-radius: 2%;
+	padding-top: 1%;
+	margin-bottom: 10px;
+}
+.panel__col--padding{
+	padding: 0px;
+}
